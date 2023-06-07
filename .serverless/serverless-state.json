@@ -174,7 +174,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/muhammedtaufiq-3-13-assignment/dev/1686133614500-2023-06-07T10:26:54.500Z/muhammedtaufiq-3-13-assignment.zip"
+                "S3Key": "serverless/muhammedtaufiq-3-13-assignment/dev/1686134981026-2023-06-07T10:49:41.026Z/muhammedtaufiq-3-13-assignment.zip"
               },
               "Handler": "index.handler",
               "Runtime": "nodejs18.x",
@@ -192,14 +192,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersionT95mZqCBQQ2bpfpJRATYraffAuBiFHziCVLiFhaN36s": {
+          "ApiLambdaVersionErOKMVTz8JGh1v4WsxDWOjo5Hvr5MKniZKFhncK8U": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "x/Rp+E4eKGcISnb/y6vmN/7Gt1Y59YRHtO+pKjtnNaM="
+              "CodeSha256": "En+2ATztz2rCa7h2nuVMUKuj7RAi7wypHpllxVgmjcg="
             }
           },
           "HttpApi": {
@@ -307,7 +307,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionT95mZqCBQQ2bpfpJRATYraffAuBiFHziCVLiFhaN36s"
+              "Ref": "ApiLambdaVersionErOKMVTz8JGh1v4WsxDWOjo5Hvr5MKniZKFhncK8U"
             },
             "Export": {
               "Name": "sls-muhammedtaufiq-3-13-assignment-dev-ApiLambdaFunctionQualifiedArn"
@@ -456,7 +456,7 @@
         "timeout": 6,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersionT95mZqCBQQ2bpfpJRATYraffAuBiFHziCVLiFhaN36s"
+        "versionLogicalId": "ApiLambdaVersionErOKMVTz8JGh1v4WsxDWOjo5Hvr5MKniZKFhncK8U"
       }
     },
     "configValidationMode": "warn",
@@ -479,7 +479,7 @@
     "artifact": "D:\\Googledrive\\NTU-CLOUD\\VISUAL STUDIO CODE\\NTU-SCTP-VISUAL-Studio\\Assignment-3.13\\3.13_assignment\\.serverless\\muhammedtaufiq-3-13-assignment.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/muhammedtaufiq-3-13-assignment/dev/1686133614500-2023-06-07T10:26:54.500Z",
+    "artifactDirectoryName": "serverless/muhammedtaufiq-3-13-assignment/dev/1686134981026-2023-06-07T10:49:41.026Z",
     "artifact": "muhammedtaufiq-3-13-assignment.zip"
   }
 }
