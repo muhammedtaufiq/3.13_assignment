@@ -162,7 +162,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/muhammedtaufiq-3-13-assignment/dev/1686136711803-2023-06-07T11:18:31.803Z/muhammedtaufiq-3-13-assignment.zip"
+          "S3Key": "serverless/muhammedtaufiq-3-13-assignment/dev/1686137462449-2023-06-07T11:31:02.449Z/muhammedtaufiq-3-13-assignment.zip"
         },
         "Handler": "index.handler",
         "Runtime": "nodejs18.x",
@@ -180,14 +180,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersionsKrE3bRaMDDEUhoXRvyPHifVchlazZ5NgLvXNMlZk": {
+    "ApiLambdaVersionnr7sriGnmyaWoHwhMJ5IyqcMlp12w7vWS5aUH4534I": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "4ev3FrnUirDqa5OXb8+YcBIVeZ92EA4tsdiCvnxI7gk="
+        "CodeSha256": "iUgXmdqJ9xglDJBmlVme4VRl4oQakOIoeL2csLjjsVg="
       }
     },
     "HttpApi": {
@@ -298,7 +298,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionsKrE3bRaMDDEUhoXRvyPHifVchlazZ5NgLvXNMlZk"
+        "Ref": "ApiLambdaVersionnr7sriGnmyaWoHwhMJ5IyqcMlp12w7vWS5aUH4534I"
       },
       "Export": {
         "Name": "sls-muhammedtaufiq-3-13-assignment-dev-ApiLambdaFunctionQualifiedArn"
