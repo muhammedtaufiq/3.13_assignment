@@ -53,7 +53,7 @@ Deliverables:
 # Step 0 -- create github repository
 
 ![A screenshot of a computer Description automatically generated with
-medium confidence](media/image1.png){width="6.268055555555556in"
+medium confidence](media/picture1.png){width="6.268055555555556in"
 height="6.020833333333333in"}
 
 # Step 1 -- create a local folder on your local machine
