@@ -59,10 +59,8 @@ height="6.020833333333333in"}
 # Step 1 -- create a local folder on your local machine
 
 We will clone into here at the next step
+![Picture1](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/22f2ff24-dacb-4204-baac-7dc849ee1281)
 
-![A screenshot of a computer Description automatically
-generated](media/image2.png){width="3.402497812773403in"
-height="1.4226695100612423in"}
 
 # Step 2 -- Clone repo to local host-folder created at the step above
 
