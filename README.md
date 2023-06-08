@@ -51,43 +51,33 @@ Deliverables:
 # 
 
 # Step 0 -- create github repository
+![Picture1](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/6f21ae52-7e35-443e-a638-db62fba82977)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/picture1.png){width="6.268055555555556in"
-height="6.020833333333333in"}
 
 # Step 1 -- create a local folder on your local machine
 
 We will clone into here at the next step
-![Picture1](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/22f2ff24-dacb-4204-baac-7dc849ee1281)
+
+![Picture2](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/fd9c874e-4a03-444d-a128-5f4e4d61060e)
 
 
 # Step 2 -- Clone repo to local host-folder created at the step above
 
 a)  Open terminal in the folder above
+![Picture3](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/9e31e302-89ac-4d7b-bc3c-113a65417817)
 
-![A screen shot of a computer Description automatically generated with
-medium confidence](media/image3.png){width="6.268055555555556in"
-height="1.2979166666666666in"}
 
 b)  \$ git clone https://github.com/muhammedtaufiq/3.13_assignment.git
 
-  ---------------------------------------------------------------------------------------------------------------
-  ![A screenshot of a computer Description automatically      ![](media/image5.png){width="4.164797681539808in"
-  generated with medium                                       height="1.4507108486439195in"}
-  confidence](media/image4.png){width="1.816634951881015in"   
-  height="1.1318088363954506in"}                              
-  ----------------------------------------------------------- ---------------------------------------------------
+![Picture4](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/a8cd5dc6-c6be-4c93-873b-8324c69fc792)
+![Picture5](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/a0507751-35af-446e-b20f-5bbcff68bc0a)
 
-  ---------------------------------------------------------------------------------------------------------------
 
 #ensure you cd into the git project root
 
 # Step 3 -- creating index.js file to hold my application
+![Picture6](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/8d880332-8140-47ba-bba3-1168b1087453)
 
-![A screen shot of a computer Description automatically generated with
-medium confidence](media/image6.png){width="4.156405293088364in"
-height="1.297668416447944in"}
 
 module.exports.handler = async (event) =\> {
 
@@ -122,50 +112,41 @@ Services](https://www.serverless.com/framework/docs/providers/aws/guide/services
 
 Template :
 
-![A screenshot of a computer Description automatically
-generated](media/image7.png){width="4.211499343832021in"
-height="4.031859142607174in"}
+![Picture7](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/f4ed3f08-aa5e-411d-b3f8-5ced1611f117)
+
 
 # Step 5 -- install and deploy serverless application
 
 **Install express**
 
 *\$npm install -g express*
+![Picture8](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/24938558-7498-4e69-9bad-041d8a0ba815)
 
-![A screen shot of a computer Description automatically generated with
-medium confidence](media/image8.png){width="4.863992782152231in"
-height="0.8034798775153106in"}
+
 
 **Create json file**
 
 *\$ npm init*
+![Picture9](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/7dc6bb4b-b09a-44c0-ab13-e09eab185edd)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image9.png){width="4.416174540682415in"
-height="1.9453477690288714in"}
 
-![A screen shot of a computer Description automatically generated with
-low confidence](media/image10.png){width="3.021255468066492in"
-height="1.6356452318460193in"}Package.json appears
+![Picture10](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/17abd9b9-77f2-40b2-9af8-5c82fc07beb8)
+
 
 *\$ npm install*
 
-![A black screen with white text Description automatically generated
-with low confidence](media/image11.png){width="6.268055555555556in"
-height="0.9291666666666667in"}
+
+![Picture11](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/253af680-5950-428a-b2e3-f5037a832487)
 
 Do ensure serverless offline plugin is installed:\
-![](media/image12.png){width="6.268055555555556in"
-height="0.42291666666666666in"}
+
+![Picture12](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/8a539f76-3df6-44a8-81b9-83f67efc2086)
 
 **Deploying serverless**
 
 *\$ serverless deploy*
+![Picture13](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/bde589bd-561e-489b-b523-9b8248a619fc)
 
-![A screen shot of a computer program Description automatically
-generated with low
-confidence](media/image13.png){width="6.268055555555556in"
-height="1.7326388888888888in"}
 
 **Acquire content from serverless to check its running**
 
@@ -174,10 +155,8 @@ You can now curl
 above under endpoint to see that its up on aws.
 
 **Curl response from aws**
+![Picture14](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/01d6eb40-e027-4955-96b3-5bb6dcfd20bf)
 
-![A picture containing text, screenshot, software Description
-automatically generated](media/image14.png){width="6.268055555555556in"
-height="4.047916666666667in"}
 
 StatusCode : 200
 
@@ -237,19 +216,15 @@ RawContentLength : 1244
 
 # Step 6 -- now that code is up and running on AWS- we create the CICD pipeline USING GitHub Actions to support changes.
 
-a.  ![A screenshot of a computer program Description automatically
-    generated with medium
-    confidence](media/image15.png){width="2.906655730533683in"
-    height="1.375191382327209in"}
+a.  ![Picture15](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/de9985f4-fc59-4b58-85e9-16da50d3ca4a)
+
 
 > Create .github/workflow folder in root
 >
 > Create main.yml file in .github\\workflows
 >
-> ![A picture containing text, font, screenshot Description
-> automatically
-> generated](media/image16.png){width="2.958746719160105in"
-> height="0.6146686351706037in"}
+> ![Picture16](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/71d196b8-7422-4cd7-9fc6-98741ce9fe8f)
+
 
 +-----------------------------------------------------------------------+
 | name: CICD for Serverless Application                                 |
@@ -385,24 +360,12 @@ Or search in your respective local drives
 # Step 7 Add secrets to Github Secrets -- ensure you are in git hub repo on github
 
 Enter your aws keys here so that github can communicate with AWS
+![Picture17](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/cdd8d56b-de99-4f19-83f4-53320b020ff4)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image17.png){width="4.9463943569553805in"
-height="2.5701957567804024in"}
 
-+-------------------------------+--------------------------------------+
-| ![A screenshot of a computer  | ![A screenshot of a computer         |
-| Description automatically     | Description automatically generated  |
-| generated with low            | with low                             |
-| c                             | confidence](media/imag               |
-| onfidence](media/image18.png) | e19.png){width="2.590400262467192in" |
-| {width="2.6255708661417323in" | height="3.12708552055993in"}         |
-| h                             |                                      |
-| eight="2.7363549868766404in"} | ![](media/imag                       |
-|                               | e20.png){width="3.306228127734033in" |
-|                               | height="2.2340660542432196in"}       |
-+===============================+======================================+
-+-------------------------------+--------------------------------------+
+![Picture18](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/ef442805-463c-4be3-8211-67c508138d9e)
+![Picture19](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/061ac685-df40-4305-92ee-658f97b11c74)
+![Picture20](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/1941299e-5f91-40a7-b4d2-cbce45c640d0)
 
 # Step 8: push changes to Github to start the workflow
 
@@ -414,35 +377,26 @@ height="2.5701957567804024in"}
 
 \*\*\*\*ensure node js folder is installed and node_modules is included
 in the .gitignore file
+![Picture21](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/38a8afd6-0cdb-4800-a30b-abdb39a918ba)
+![Picture22](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/a4c03923-08ca-4873-b8ed-c6479a21f996)
 
-![](media/image21.png){width="6.268055555555556in"
-height="0.1423611111111111in"}
 
-![](media/image22.png){width="1.3439370078740158in"
-height="0.39588910761154855in"}
 
 ## Workflow started- check on Github Actions on Github as shown below
+![Picture23](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/497e459a-8643-4728-bf5b-041c663bb0cc)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image23.png){width="2.9551859142607175in"
-height="1.8596784776902888in"}
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image24.png){width="4.6077329396325455in"
-height="1.5391447944007in"}
+![Picture24](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/77a55d25-e35d-4369-9924-b1e2d0e3e177)
+
+
 
 # Step 9 : add a secret in AWS secret manager
 
 The goal of this exercise is to **Store some information using Secret
 Management on AWS, then get the information as part of the pipeline.**
+![Picture25](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/c11e1ce6-bd8f-4627-bd78-fbde056e250e)
+![Picture26](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/a3d6d318-8c81-49e1-a0b5-eeeb10a1e3eb)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image25.png){width="4.023630796150481in"
-height="2.0599595363079617in"}
-
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image26.png){width="6.268055555555556in"
-height="3.3979166666666667in"}
 
 # Step 10- retrieve the secret from the AWS Secrets as part of the CICD pipeline
 
@@ -452,15 +406,8 @@ Add a new job **retrieve-secret** to
 secret ***TAUFIQ_SECRET*** 
 
 from AWS Secrets Manager and inject into environment variables
-
-![A screenshot of a computer program Description automatically generated
-with medium confidence](media/image27.png){width="6.268055555555556in"
-height="3.8270833333333334in"}
-
-![A picture containing text, screenshot, software, multimedia software
-Description automatically
-generated](media/image28.png){width="6.268055555555556in"
-height="2.5277777777777777in"}
+![Picture27](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/618cd1b6-1189-443a-9b42-98f019d95093)
+![Picture28](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/7b0f5dc7-7734-4ed3-8dca-0be51f88b67d)
 
 Last 2 lines will print the secrets
 
@@ -490,7 +437,6 @@ Last 2 lines will print the secrets
 > app1/dev/\*
 
 # STEP 11-Push the changes to GitHub to start the workflow
+![Picture29](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/b130f0f5-14f4-4ea8-95df-c26fe22bfc23)
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](media/image29.png){width="6.268055555555556in"
-height="2.475in"}
+
